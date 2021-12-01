@@ -1,9 +1,9 @@
 #include "binary_trees.h"
 /**
- * binary_tree_height - a function that measures the height of a binary tree
- * @tree: a pointer to the root node of the tree to traverse
- * Return: the height of a binary tree
- */
+*binary_tree_sibling -  a function that finds the sibling of a node
+*@node: Pointer to the node to find the sibling
+*Return: a pointer to the sibling node, or NULL on failure
+*/
 binary_tree_t *binary_tree_sibling(binary_tree_t *node)
 {
 	if (node == NULL)
